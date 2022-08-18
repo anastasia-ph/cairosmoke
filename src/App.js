@@ -1,7 +1,7 @@
 import BackgroundContainer from './components/backgroundContainer';
 import MerchBackButton from "./components/merchBackButton"
 import MerchContainer from './components/merchContainer';
-import MerchContainer1 from "./components//merchContainer1"
+import MerchWrapper from "./components//merchWrapper"
 import MerchItem from './components/merchItem';
 import MerchMainText from './components/merchMainText';
 import  picture from "./../src/components/placeholder.png"
@@ -85,14 +85,14 @@ dropdownElements.splice(1,0,<CairoDescription isDescription={isDescription} desc
           {dropdownElements}
         </MenuBody>
        </MenuContainer> : <div className='dropdown-height'></div>} </React.Fragment>:
-<MerchContainer1>
+<MerchWrapper>
         <MerchBackButton onClick={switchMainPage}/>
       <MerchMainText text="Merch"></MerchMainText>
       <MerchContainer>
         {items.map((items)=><MerchItem src ={picture} desc={items.desc} price={items.price}></MerchItem>)}
 
       </MerchContainer>
-      </MerchContainer1>
+      </MerchWrapper>
       }
      </BackgroundContainer>
 
