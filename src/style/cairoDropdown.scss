@@ -26,9 +26,8 @@ list-style:none;
 text-transform: uppercase;
 cursor: pointer;
 transition: font-family 5s ease;
-
+&:hover{
+    font-family: "Ibarra hover";
+    }
 }
 
-.dropdown-item:hover{
-font-family: "Ibarra hover";
-}
