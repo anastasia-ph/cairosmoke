@@ -1,13 +1,15 @@
 .container{
     background-image: url("./../assets/lightningBackground.jpg");
+    background-attachment: scroll;
     width: 100vw;
-    height: 100vh;
+    min-height:100vh;
+    height: max-content;
     background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    @media (max-width:768px) {
+    @media (max-width:1025px) {
         background-position: center center;
 
     }
