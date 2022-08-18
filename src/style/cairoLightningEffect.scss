@@ -1,0 +1,39 @@
+.cairoContainer{
+    width: 25%;
+    height: 25%;
+    margin-top: 30vh; //added 17/07 to prevent moving of block caused by dropdown 
+    position: absolute;
+
+    @media (max-width:420px) {
+            margin-top:20vh;
+            width: 85vw;
+
+    }
+    @media (min-width:421px) and (max-width:628px){
+        margin-top:20vh;
+            width:65vw;
+
+    }
+    @media (min-width:629px) and (max-width:1025px){
+            margin-top:20vh;
+            width: 35vw;
+
+    }
+}
+
+.cairoLightning{
+    width: 100%;
+    animation: lightning 3s linear;
+    opacity: 1;
+    
+}
+@keyframes lightning{
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    11% {opacity: 1;}
+    17%{opacity: 0;}
+    30% {opacity: 0;}
+    31% {opacity: 1;}
+    37% { opacity: 0;}
+    100% {opacity: 0;}
+}

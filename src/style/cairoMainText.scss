@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Loveluy";
+    src: url("fonts/UnifrakturMaguntia-Regular.ttf");
+}
+.cairoText{
+    margin-top: 40vh; //added 17/07 to prevent moving of block caused by dropdown 
+    font-family: "Loveluy";
+    color: aliceblue;
+    font-size: 80px;
+    z-index: 2;
+    cursor: default;
+    user-select: none;
+    @media (max-width:420px) {
+        margin-top: 30vh;
+        font-size: 60px;
+
+}
+    @media (min-width:629px) and (max-width:1025px){
+
+        margin-top:30vh;
+    
+    }
+}
+
