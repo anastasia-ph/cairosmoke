@@ -1,9 +1,8 @@
 import React from "react";
 import { Children } from "react";
-import "./../style/cairoDescripton.scss"
 const CairoDescription = (props) => {
     return (
-        props.isDescription ? (<div class="description">{props.desc}</div >) : null
+        props.isDescription ? (<div class="cairo__description">{props.desc}</div >) : null
     )
 }
 

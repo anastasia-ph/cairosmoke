@@ -1,8 +1,7 @@
 import React from "react";
-import "./../style/merchPage.scss"
 const MerchContainer = ({ children }) => {
     return (
-        <div className="MerchContainer">{children}</div>
+        <div className="merch__container">{children}</div>
     )
 }
 export default MerchContainer;

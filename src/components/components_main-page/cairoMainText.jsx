@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./../style/cairoMainText.scss"
 
 const CairoMainText = (props) => {
     const handleClick = () =>

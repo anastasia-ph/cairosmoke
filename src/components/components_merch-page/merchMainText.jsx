@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import "./../style/merchPage.scss"
 
 const MerchMainText = (props) => {
 
 
     return (
-        <div className="MerchMainText">{props.text}</div>
+        <div className="merch__main-text ">{props.text}</div>
     )
 }
 export default MerchMainText
