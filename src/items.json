@@ -1,19 +1,20 @@
 [{
+    "image":"../assets/placeholder.png",
     "desc":"Longsleeve",
     "price":"100UAH"
 },
 {
-   
+    "image":"../assets/placeholder.png",
     "desc":"Hoodie",
     "price":"190UAH"
 },
 {
-   
+    "image":"../assets/placeholder.png",
     "desc":"Cap",
     "price":"50UAH"
 },
 {
-    
+    "image":"../assets/placeholder.png",
     "desc":"Shopper bag",
     "price":"90UAH"
 }]
