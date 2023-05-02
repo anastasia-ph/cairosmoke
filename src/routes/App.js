@@ -2,6 +2,8 @@ import BackgroundContainer from '../components/backgroundContainer';
 import '../style/main.css'
 import { Helmet } from 'react-helmet';
 import MainPage from '../components/mainPage';
+import React from 'react';
+
 
 
 
