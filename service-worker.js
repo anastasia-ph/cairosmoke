@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cairosmoke/precache-manifest.9fb45dc3675caa68b1664aeb6cd27e89.js"
+  "/cairosmoke/precache-manifest.dfb5c9b0dc409aee87b6f60dfc1cae9b.js"
 );
 
 workbox.clientsClaim();
