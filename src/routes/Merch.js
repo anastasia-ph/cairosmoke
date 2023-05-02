@@ -1,7 +1,7 @@
 import BackgroundContainer from '../components/backgroundContainer';
 import MerchWrapper from "../components/merchWrapper"
 import PopupContainer from "../components/popupContainer";
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 
 const MerchPage = () => {
