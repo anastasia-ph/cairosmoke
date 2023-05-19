@@ -19,7 +19,7 @@ const PopupContainer = (props) => {
                 <PopupCloseButton onClick={props.onClick}></PopupCloseButton>
                 {formSent ? <><PopupGif link={gifURL}>
 
-                </PopupGif> <p className="merch__item-text">Thanks for purchase!</p>
+                </PopupGif> <p className="merch__item-text purchase-completed">Thanks for purchase!</p>
                 </> :
                     <>
                         <PopupInputField length="unset" placeholder="Your Name"></PopupInputField>
