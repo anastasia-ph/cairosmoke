@@ -1,20 +1,22 @@
-[{
-    "image":"../assets/placeholder.png",
-    "desc":"Longsleeve",
-    "price":"100UAH"
-},
-{
-    "image":"../assets/placeholder.png",
-    "desc":"Hoodie",
-    "price":"190UAH"
-},
-{
-    "image":"../assets/placeholder.png",
-    "desc":"Cap",
-    "price":"50UAH"
-},
-{
-    "image":"../assets/placeholder.png",
-    "desc":"Shopper bag",
-    "price":"90UAH"
-}]
+[
+    {
+        "image": "assets/long.jpg",
+        "desc": "<Longsleeve>",
+        "price": "100UAH"
+    },
+    {
+        "image": "assets/hoodie.jpg",
+        "desc": "<Hoodie>",
+        "price": "190UAH"
+    },
+    {
+        "image": "assets/cap.jpg",
+        "desc": "<Cap>",
+        "price": "50UAH"
+    },
+    {
+        "image": "assets/shopper.jpg",
+        "desc": "<Shopper bag>",
+        "price": "90UAH"
+    }
+]

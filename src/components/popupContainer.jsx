@@ -22,6 +22,7 @@ const PopupContainer = (props) => {
                 </PopupGif> <p className="merch__item-text purchase-completed">Thanks for purchase!</p>
                 </> :
                     <>
+                        <p className="popup__header">Purchase form</p>
                         <PopupInputField length="unset" placeholder="Your Name"></PopupInputField>
                         <PopupInputField length="16" placeholder="Card number"></PopupInputField>
                         <PopupSubmitButton onClick={() => setGifPath(setGifUrl, setFormSent)}></PopupSubmitButton>

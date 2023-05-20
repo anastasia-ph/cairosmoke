@@ -67,6 +67,7 @@
     background-color: rgba($color: #9d9a9a, $alpha: 0.5);
     margin: 10px;
     width: 20%;
+    height: 28em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,6 +91,10 @@
         margin: 5px;
 
     }
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .merch__item-text {
@@ -99,11 +104,17 @@
 
 }
 
+.merch__item-image_container {
+    height: 70%;
+    width: 90%;
+    overflow: hidden;
+    background-color: white;
+
+}
+
 .merch__item-image {
-    width: 95%;
-    display: flex;
-    align-self: center;
-    margin: 10px 0 10px 0;
+    width: 100%;
+
 }
 
 .merch__back-button {
