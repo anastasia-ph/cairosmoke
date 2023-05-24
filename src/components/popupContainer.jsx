@@ -12,6 +12,18 @@ import { useState } from "react";
 const PopupContainer = (props) => {
     const [gifURL, setGifUrl] = useState("undefined");
     const [formSent, setFormSent] = useState(false)
+
+    let validateForm = () => {
+        let inputFields = document.getElementsByClassName("popup__input")
+        for (let i = 0; i < inputFields.length; i++) {
+            if (inputFields[i].value === '') {
+                inputFields[i].classList.add("input-field__error")
+            }
+        }
+        // setGifPath(setGifUrl, setFormSent)
+    }
+
+
     return (
         <div className="popup__container">
 
@@ -24,8 +36,8 @@ const PopupContainer = (props) => {
                     <>
                         <p className="popup__header">Purchase form</p>
                         <PopupInputField length="unset" placeholder="Your Name"></PopupInputField>
-                        <PopupInputField length="16" placeholder="Card number"></PopupInputField>
-                        <PopupSubmitButton onClick={() => setGifPath(setGifUrl, setFormSent)}></PopupSubmitButton>
+                        <PopupInputField length="19" placeholder="Card number"></PopupInputField>
+                        <PopupSubmitButton onClick={() => validateForm()}></PopupSubmitButton>
                     </>}
             </PopupItem>
 

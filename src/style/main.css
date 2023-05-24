@@ -305,6 +305,10 @@
   border-radius: 0;
 }
 
+.input-field__error {
+  border: 2px solid red;
+}
+
 .popup__submit-button {
   width: 60%;
   height: 60px;
