@@ -4,7 +4,11 @@ let validateInput = (fieldName) => {
         if (fieldName === "Your Name") {
             let inputValueLength = (e.currentTarget.value).length
             let lastChar = e.currentTarget.value[inputValueLength - 1]
+            let appliedClassNames = e.currentTarget.className
 
+            if (appliedClassNames.includes("input-field__error")) {
+                e.currentTarget.className = "popup__input"
+            }
             if (lastChar * 0 == 0) {
                 e.currentTarget.value = (e.currentTarget.value).replace(lastChar, "");
             }
@@ -17,6 +21,11 @@ let validateInput = (fieldName) => {
             let inputValueLength = (e.currentTarget.value).length
             let lastChar = e.currentTarget.value[inputValueLength - 1]
             let onlyDigitsLength = ((e.currentTarget.value).replaceAll("-", "")).length;
+            let appliedClassNames = e.currentTarget.className
+
+            if (appliedClassNames.includes("input-field__error")) {
+                e.currentTarget.className = "popup__input"
+            }
 
             if (lastChar * 0 != 0) {
                 return e.currentTarget.value = (e.currentTarget.value).replace(lastChar, "");

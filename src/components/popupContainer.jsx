@@ -18,9 +18,12 @@ const PopupContainer = (props) => {
         for (let i = 0; i < inputFields.length; i++) {
             if (inputFields[i].value === '') {
                 inputFields[i].classList.add("input-field__error")
+                if (i === (inputFields.length) - 1) {
+                    return
+                }
             }
         }
-        // setGifPath(setGifUrl, setFormSent)
+        return setGifPath(setGifUrl, setFormSent)
     }
 
 
