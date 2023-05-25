@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8784397cfaf6db791761",
-    "url": "/cairosmoke/static/css/main.cd9407cf.chunk.css"
+    "revision": "dca46d83e911f8f391c4",
+    "url": "/cairosmoke/static/css/main.eb1ff925.chunk.css"
   },
   {
-    "revision": "8784397cfaf6db791761",
-    "url": "/cairosmoke/static/js/main.8784397c.chunk.js"
+    "revision": "dca46d83e911f8f391c4",
+    "url": "/cairosmoke/static/js/main.dca46d83.chunk.js"
   },
   {
     "revision": "6f6f4986655de22842af",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/cairosmoke/static/media/lightningBackground.127e729d.jpg"
   },
   {
-    "revision": "b69a2703fcd87a70509084f25f33808c",
+    "revision": "1d7ae0aad93bc2359e646d028c2cdd32",
     "url": "/cairosmoke/index.html"
   }
 ];
